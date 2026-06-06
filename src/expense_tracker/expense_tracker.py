@@ -85,6 +85,6 @@ def summary(args):
 
 def export(args):
     export_to_csv(args)
-    print("Exported Sucessfully")
+    print("Exported Successfully")
 
 

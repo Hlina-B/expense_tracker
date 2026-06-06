@@ -14,7 +14,7 @@ def get_user_input():
         print("Please use either 'exp' or 'budg' command after 'expense.")
         sys.exit(-1)
     
-    return args
+    return paraser.parse_args()
 
 
 def get_expense_input(exp): 
